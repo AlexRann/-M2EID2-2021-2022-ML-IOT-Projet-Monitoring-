@@ -1,0 +1,1 @@
+Les photos des mouvements détectés seront stockées ici.
