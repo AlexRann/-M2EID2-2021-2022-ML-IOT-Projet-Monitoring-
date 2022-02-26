@@ -1,1 +1,4 @@
 Fichiers pour la communication client-serveur
+
+Lancer la commande suivante pour générer les fichiers proto :
+python -m grpc_tools.protoc -I../LogicielPC --python_out=. --grpc_python_out=. proto/communication.proto
