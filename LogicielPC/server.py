@@ -8,7 +8,7 @@ Fichier qui gère la communication entre l'application mobile et le serveur Pyth
 
 
 """
-python -m grpc_tools.protoc -I../Projet_Monitoring --python_out=. --grpc_python_out=. proto/communication.proto
+python -m grpc_tools.protoc -I../LogicielPC --python_out=. --grpc_python_out=. proto/communication.proto
 """
 
 from concurrent import futures
